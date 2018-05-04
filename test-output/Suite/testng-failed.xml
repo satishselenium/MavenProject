@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.Testing2">
+        <methods>
+          <include name="SampleTest" invocation-numbers="2 3"/>
+          <include name="startTest"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- testCases.Testing2 -->
+      <class name="testCases.Allmediany_SignUpPage_Test">
+        <methods>
+          <include name="endReport"/>
+          <include name="startTest"/>
+          <include name="getResult"/>
+          <include name="SampleTest" invocation-numbers="2 3 4"/>
+        </methods>
+      </class> <!-- testCases.Allmediany_SignUpPage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
