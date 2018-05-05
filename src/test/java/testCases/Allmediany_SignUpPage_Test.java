@@ -51,6 +51,7 @@ public class Allmediany_SignUpPage_Test extends BaseTestSetting {
 	    	AllmedianyPage.SignUp(data);
 	    	logger.log(LogStatus.PASS, TestCaseName+" PASSED");
 	    	driver.close();
+	    	//end
 	    	//-------------END BODY----------- END BODY-------------END BODY----------END BODY----------------
 	    }
 	 }
