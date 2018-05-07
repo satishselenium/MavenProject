@@ -29,8 +29,8 @@ import com.relevantcodes.extentreports.LogStatus;
 public class BaseTestSetting {
 	public static String ConfigPropertyPath = System.getProperty("user.dir")+"\\TestData\\ConfigDetail.properties";
 	public static WebDriver driver;
-	public ExtentTest logger;
-	public ExtentReports Report;
+	public static ExtentTest logger;
+	public static ExtentReports Report;
 	//=============================================================================================	
 	public static ExtentReports CreateExtentReport(String TestCaseName) throws IOException {
 		String ResultFolder = getPropertiesFileData(ConfigPropertyPath,"ResultFolder");

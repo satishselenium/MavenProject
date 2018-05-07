@@ -3,6 +3,7 @@ package config;
 public interface LocatorRepository
 {
 //Register Page
+	//public static final String UserName = "//*[@id=\"userttttname\"]";
 	public static final String UserName = "//*[@id=\"username\"]";
 	public static final String Password = "//*[@id=\"txt_password\"]";
 	public static final String ConfirmPassword = "//*[@id=\"cpassword\"]";

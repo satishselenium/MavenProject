@@ -17,72 +17,71 @@ import config.LocatorRepository;
 
 public class Allmediany_SignUpPage extends BaseTestSetting {
 
-
-	
 	@FindBy(xpath = LocatorRepository.UserName)
-	WebElement userName ;
-	
+	WebElement userName;
+
 	@FindBy(xpath = LocatorRepository.Password)
-	WebElement password ;
-	
+	WebElement password;
+
 	@FindBy(xpath = LocatorRepository.ConfirmPassword)
-	WebElement Confirmpassword ;
-	
+	WebElement Confirmpassword;
+
 	@FindBy(xpath = LocatorRepository.FirstName)
-	WebElement firstname ;
-	
+	WebElement firstname;
+
 	@FindBy(xpath = LocatorRepository.LastName)
-	WebElement lastname ;
-	
+	WebElement lastname;
+
 	@FindBy(xpath = LocatorRepository.Email)
-	WebElement email ;
-	
+	WebElement email;
+
 	@FindBy(xpath = LocatorRepository.DOBMonth)
-	WebElement dobMonth ;
-	
+	WebElement dobMonth;
+
 	@FindBy(xpath = LocatorRepository.DOBDate)
-	WebElement dobDate ;
-	
+	WebElement dobDate;
+
 	@FindBy(xpath = LocatorRepository.DOBYear)
-	WebElement dobYear ;
-	
+	WebElement dobYear;
+
 	@FindBy(xpath = LocatorRepository.Address)
-	WebElement address ;
-	
+	WebElement address;
+
 	@FindBy(xpath = LocatorRepository.Country)
-	WebElement country ;
-	
+	WebElement country;
+
 	@FindBy(xpath = LocatorRepository.State)
-	WebElement state ;
-	
+	WebElement state;
+
 	@FindBy(xpath = LocatorRepository.City)
-	WebElement city ;
-	
+	WebElement city;
+
 	@FindBy(xpath = LocatorRepository.Submit)
-	WebElement submit ;
+	WebElement submit;
 
-	//Allmediany_SignUpPage AllmedianyPage = PageFactory.initElements(driver, Allmediany_SignUpPage.class);
+	// Allmediany_SignUpPage AllmedianyPage = PageFactory.initElements(driver,
+	// Allmediany_SignUpPage.class);
 
-WebDriver driver;	
-	
-public Allmediany_SignUpPage(WebDriver driver,ExtentTest logger) {
-	this.driver=driver;
-	this.logger=logger;
-	PageFactory.initElements(driver, this);
-}
-	
-	
-public void SignUp(Hashtable<String, String> data) throws IOException {
-	CommonMethods CM= new CommonMethods();
-	userName.sendKeys(data.get("username"));
-	password.sendKeys(data.get("Password"));
-	Confirmpassword.sendKeys(data.get("ConfirmPassword"));
-	CM.selectWeblist(dobMonth, data.get("Month of Dob"));
-	CM.selectWeblist(dobDate, data.get("Date of Dob"));
-	CM.selectWeblist(dobYear, data.get("Year of Dob"));
-	logger.log(LogStatus.INFO,"All details filled");
-	TakeScreenShot();
-	//submit.click();
-}
+	WebDriver driver;
+
+	@SuppressWarnings("static-access")
+	public Allmediany_SignUpPage(WebDriver driver, ExtentTest logger) {
+		this.driver = driver;
+		this.logger = logger;
+		PageFactory.initElements(driver, this);
+	}
+
+	public void SignUp(Hashtable<String, String> data) throws IOException {
+		CommonMethods CM = new CommonMethods();
+		userName.sendKeys(data.get("username"));
+		password.sendKeys(data.get("Password"));
+		Confirmpassword.sendKeys(data.get("ConfirmPassword"));
+		CM.selectWeblist(dobMonth, data.get("Month of Dob"));
+		CM.selectWeblist(dobDate, data.get("Date of Dob"));
+		CM.selectWeblist(dobYear, data.get("Year of Dob"));
+		logger.log(LogStatus.INFO, "All details filled");
+		TakeScreenShot();
+		// submit.click();
+	}
 
 }

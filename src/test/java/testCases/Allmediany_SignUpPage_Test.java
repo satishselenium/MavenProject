@@ -39,7 +39,7 @@ public class Allmediany_SignUpPage_Test extends BaseTestSetting {
 	}
 	//==========================================
 	 @Test(dataProvider="GetData")
-	 public void SampleTest(Hashtable<String, String> data) throws IOException {
+	 public void Allmediany_SignUpPage_TestCase(Hashtable<String, String> data) throws IOException {
 	    logger = Report.startTest(TestCaseName, TestCaseName+" Execution Started");
 	    if (!data.get("Execute").equalsIgnoreCase("Y") || (!isExecutableFlag(TestCaseName))){
 	    	logger.log(LogStatus.SKIP,TestCaseName+" is skipped as skip mode is off");
