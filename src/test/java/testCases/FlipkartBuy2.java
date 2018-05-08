@@ -21,8 +21,8 @@ public class FlipkartBuy2 extends BaseTestSetting
 	    OpenBrowser("Chrome",NoteURLPro,20);
 	    
 	    driver.findElement(By.xpath("//a[@class='_2k0gmP']")).click();
-	    driver.findElement(By.xpath("//input[@class='_2zrpKA']")).sendKeys("8763643318");
-	    driver.findElement(By.xpath("//input[@class='_2zrpKA _3v41xv']")).sendKeys("Flipkart@123");
+	    driver.findElement(By.xpath("//input[@class='_2zrpKA']")).sendKeys("");
+	    driver.findElement(By.xpath("//input[@class='_2zrpKA _3v41xv']")).sendKeys("");
 	    driver.findElement(By.xpath("//button[@class='_2AkmmA _1LctnI _7UHT_c']")).click();
 	    //driver.findElement(By.xpath("//div[contains(text(),'Coming Soon')])")).click();
 	    

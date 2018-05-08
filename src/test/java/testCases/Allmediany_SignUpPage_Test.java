@@ -13,8 +13,6 @@ import org.testng.annotations.DataProvider;
 import com.relevantcodes.extentreports.LogStatus;
 
 import config.BaseTestSetting;
-import listenerClass.RetryListener;
-import listenerClass.RetryTest;
 import page.Allmediany_SignUpPage;
 
 public class Allmediany_SignUpPage_Test extends BaseTestSetting {
