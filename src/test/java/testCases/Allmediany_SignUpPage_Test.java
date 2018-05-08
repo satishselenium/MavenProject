@@ -13,6 +13,8 @@ import org.testng.annotations.DataProvider;
 import com.relevantcodes.extentreports.LogStatus;
 
 import config.BaseTestSetting;
+import listenerClass.RetryListener;
+import listenerClass.RetryTest;
 import page.Allmediany_SignUpPage;
 
 public class Allmediany_SignUpPage_Test extends BaseTestSetting {
@@ -38,6 +40,8 @@ public class Allmediany_SignUpPage_Test extends BaseTestSetting {
          //=========================
 	}
 	//==========================================
+	//------------below using retry logic----------
+	// @Test(dataProvider="GetData", retryAnalyzer = RetryTest.class)
 	 @Test(dataProvider="GetData")
 	 public void Allmediany_SignUpPage_TestCase(Hashtable<String, String> data) throws IOException {
 	    logger = Report.startTest(TestCaseName, TestCaseName+" Execution Started");

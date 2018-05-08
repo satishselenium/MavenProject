@@ -4,7 +4,9 @@
 
 	<listeners>
 		<listener class-name="listenerClass.ListenerTest" />
+		<listener class-name="listenerClass.RetryListener"/>
 	</listeners>
+
 
 
 	<test thread-count="5" name="Test Suite">
