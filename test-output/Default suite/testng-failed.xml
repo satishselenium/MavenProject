@@ -7,7 +7,7 @@
         <methods>
           <include name="endReport"/>
           <include name="startTest"/>
-          <include name="Allmediany_SignUpPage_TestCase" invocation-numbers="0 1 2 3 4"/>
+          <include name="Allmediany_SignUpPage_TestCase" invocation-numbers="1 2 3 4"/>
           <include name="getResult"/>
         </methods>
       </class> <!-- testCases.Allmediany_SignUpPage_Test -->

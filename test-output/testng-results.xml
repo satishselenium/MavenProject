@@ -2,16 +2,16 @@
 <testng-results skipped="4" failed="0" ignored="0" total="5" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16993" started-at="2018-05-07T05:28:08Z" finished-at="2018-05-07T05:28:25Z">
+  <suite name="Default suite" duration-ms="18070" started-at="2018-05-09T06:31:30Z" finished-at="2018-05-09T06:31:48Z">
     <groups>
     </groups>
-    <test name="Test Suite" duration-ms="16993" started-at="2018-05-07T05:28:08Z" finished-at="2018-05-07T05:28:25Z">
+    <test name="Default test" duration-ms="18070" started-at="2018-05-09T06:31:30Z" finished-at="2018-05-09T06:31:48Z">
       <class name="testCases.Allmediany_SignUpPage_Test">
-        <test-method status="PASS" signature="startTest()[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="startTest" is-config="true" duration-ms="249" started-at="2018-05-07T05:28:08Z" finished-at="2018-05-07T05:28:08Z">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="startTest" is-config="true" duration-ms="216" started-at="2018-05-09T06:31:30Z" finished-at="2018-05-09T06:31:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method status="PASS" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="14250" started-at="2018-05-07T05:28:09Z" data-provider="GetData" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="15535" started-at="2018-05-09T06:31:31Z" data-provider="GetData" finished-at="2018-05-09T06:31:46Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allmediany_SignUpPage_TestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="631" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="615" started-at="2018-05-09T06:31:46Z" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="5" started-at="2018-05-07T05:28:24Z" data-provider="GetData" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="0" started-at="2018-05-09T06:31:47Z" data-provider="GetData" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Allmediany_SignUpPage_Test is skipped as Runmode is not Y in DataSheet
-at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:46)
+at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -79,7 +79,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allmediany_SignUpPage_TestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="3" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="15" started-at="2018-05-09T06:31:47Z" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="10" started-at="2018-05-07T05:28:24Z" data-provider="GetData" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="0" started-at="2018-05-09T06:31:47Z" data-provider="GetData" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -104,7 +104,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Allmediany_SignUpPage_Test is skipped as Runmode is not Y in DataSheet
-at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:46)
+at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -136,7 +136,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allmediany_SignUpPage_TestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="1" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="0" started-at="2018-05-09T06:31:47Z" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="4" started-at="2018-05-07T05:28:24Z" data-provider="GetData" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="0" started-at="2018-05-09T06:31:47Z" finished-at="2018-05-09T06:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Allmediany_SignUpPage_TestCase status=SKIP method=Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="0" started-at="2018-05-09T06:31:47Z" data-provider="GetData" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -161,7 +172,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Allmediany_SignUpPage_Test is skipped as Runmode is not Y in DataSheet
-at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:46)
+at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -193,18 +204,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allmediany_SignUpPage_TestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="1" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=Allmediany_SignUpPage_TestCase status=SKIP method=Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="3" started-at="2018-05-07T05:28:24Z" data-provider="GetData" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="SKIP" signature="Allmediany_SignUpPage_TestCase(java.util.Hashtable)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="Allmediany_SignUpPage_TestCase" duration-ms="16" started-at="2018-05-09T06:31:47Z" data-provider="GetData" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -218,7 +218,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Allmediany_SignUpPage_Test is skipped as Runmode is not Y in DataSheet
-at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:46)
+at testCases.Allmediany_SignUpPage_Test.Allmediany_SignUpPage_TestCase(Allmediany_SignUpPage_Test.java:48)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -250,7 +250,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Allmediany_SignUpPage_TestCase -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="1" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:24Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="getResult" is-config="true" duration-ms="0" started-at="2018-05-09T06:31:47Z" finished-at="2018-05-09T06:31:47Z">
           <params>
             <param index="0">
               <value>
@@ -261,11 +261,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="endReport" is-config="true" duration-ms="471" started-at="2018-05-07T05:28:24Z" finished-at="2018-05-07T05:28:25Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:testCases.Allmediany_SignUpPage_Test@20398b7c]" name="endReport" is-config="true" duration-ms="501" started-at="2018-05-09T06:31:47Z" finished-at="2018-05-09T06:31:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- testCases.Allmediany_SignUpPage_Test -->
-    </test> <!-- Test Suite -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
