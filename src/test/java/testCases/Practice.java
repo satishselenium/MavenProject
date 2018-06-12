@@ -10,7 +10,7 @@ import java.util.Set;
 
 public class Practice {
 
-	public static void main(String[] args) {
+	static public void main(String[] args) {
 		// TODO Auto-generated method stub
 //		int[] arrayOfInt = { 1, 2, 3, 5, 1, 2, 7, 8, 9, 10 };
 //		Set<Integer> notDupes = new HashSet<Integer>();
